@@ -84,11 +84,11 @@ namespace StoneQuarry
             return OnPickBlock(world, pos + offset.AsBlockPos);
         }
 
-        public BlockSounds GetSounds(IBlockAccessor blockAccessor, BlockSelection blockSel, ItemStack stack, Vec3i offset)
+        public BlockSounds MBGetSounds(IBlockAccessor blockAccessor, BlockSelection blockSel, ItemStack stack, Vec3i offset)
         {
             BlockSelection coreBlockSel = blockSel.Clone();
             coreBlockSel.Position += offset.AsBlockPos;
-            return GetSounds(blockAccessor, coreBlockSel, stack, offset);
+            return MBGetSounds(blockAccessor, coreBlockSel, stack, offset);
         }
     }
 }
