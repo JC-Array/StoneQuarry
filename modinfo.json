@@ -1,0 +1,13 @@
+{
+    "type": "code",
+    "texturesize": 32,
+    "name": "Stone Quarry",
+    "version": "3.4.0",
+    "networkVersion": null,
+    "description": "An armory of tools for food-based mods and modpack makers",
+    "modID": "stonequarry",
+    "authors": ["DArkHekRoMaNT"],
+    "contributors": ["DArkHekRoMaNT"],
+  
+    "dependencies": {}
+  }
